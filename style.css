@@ -71,3 +71,13 @@ button {
 button:hover {
     background: #1d4ed8;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: center;
+}
