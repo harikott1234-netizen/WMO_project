@@ -164,8 +164,8 @@ table th, table td {
         gap: 0;
     }
     
-    #date, #month, #year {
-        margin-right: 0;
+    #date, #month, #year ,#expenseName,#amount{
+        width: 94%;
     }
     
     .expensechart {
