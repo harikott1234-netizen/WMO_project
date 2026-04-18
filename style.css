@@ -81,3 +81,51 @@ table th, table td {
     border-bottom: 1px solid #e2e8f0;
     text-align: center;
 }
+.card1 {
+    background:#FCF6F5;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    height: 200px;
+    width: 28%;
+    margin-right: 10px;
+}
+
+
+.card2 {
+    background:#FCF6F5;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    height: 250px;
+    width: 45%;
+}
+
+.cardsummary{
+    background-color:#cee6f6;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#totalExpense{
+    text-align: center;
+    color:green ;
+    margin: 20px;
+}
+
+.expensechart {
+  width: 130px;
+  margin-left: 95px;
+  aspect-ratio: 1; 
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff6384 0% 20%,   
+    #36a2eb 20% 40%,   
+    #ffce56 40% 60%,   
+    #4bc0c0 60% 80%,   
+    #9966ff 80% 100%   
+  );
+}
